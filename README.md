@@ -126,23 +126,8 @@ Instead of maintaining separate ingestion pipelines for individual source tables
 
 ### Pipeline Execution Flow
 
-```mermaid
-flowchart TD
-    A["Pipeline Trigger"]
-    B["Lookup Metadata"]
-    C["ForEach - Metadata Records"]
-    D["Dynamic Source Configuration"]
-    E["Incremental Data Extraction"]
-    F["ADLS Gen2 Bronze Storage"]
-    G["Execution Logging"]
+<img width="1221" height="544" alt="image" src="https://github.com/user-attachments/assets/b70014ff-4ad4-4b05-8f5f-f0738e321a07" />
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-```
 
 ### Metadata Configuration
 
