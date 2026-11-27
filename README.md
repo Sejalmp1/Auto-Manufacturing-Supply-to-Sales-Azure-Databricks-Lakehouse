@@ -47,7 +47,7 @@ The objective is to consolidate these datasets into a unified analytical platfor
 
 The platform combines metadata-driven ingestion using Azure Data Factory with a Medallion Lakehouse architecture implemented using Azure Databricks.
 
-### End-to-End Data Flow
+### ETL Pipeline for Manufacturing Domain
 
 <img width="796" height="268" alt="End to End Architecture" src="https://github.com/user-attachments/assets/1f31214a-e16e-4f2e-94d6-67b31bb3de83" />
 
